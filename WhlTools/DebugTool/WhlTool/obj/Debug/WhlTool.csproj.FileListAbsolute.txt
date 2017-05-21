@@ -1,0 +1,6 @@
+E:\vsProject\WhlTool\WhlTool\bin\Debug\WhlTool.dll
+E:\vsProject\WhlTool\WhlTool\bin\Debug\WhlTool.pdb
+E:\vsProject\WhlTool\WhlTool\bin\Debug\UnityEngine.dll
+E:\vsProject\WhlTool\WhlTool\bin\Debug\UnityEngine.xml
+E:\vsProject\WhlTool\WhlTool\obj\Debug\WhlTool.dll
+E:\vsProject\WhlTool\WhlTool\obj\Debug\WhlTool.pdb
