@@ -1,3 +1,4 @@
 *.vs/*
 GameClent/Temp*
 GameClent/Library*
+GameClent/GameClent*
