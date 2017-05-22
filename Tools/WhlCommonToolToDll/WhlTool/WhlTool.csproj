@@ -44,8 +44,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CryptoPrefs.cs" />
     <Compile Include="Debuger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="XorFloat.cs" />
+    <Compile Include="XorInt.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
