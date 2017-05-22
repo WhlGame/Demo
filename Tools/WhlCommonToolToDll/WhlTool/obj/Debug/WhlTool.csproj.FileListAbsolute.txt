@@ -8,3 +8,9 @@ D:\unity_project\Demo\WhlTools\DebugTool\WhlTool\bin\Debug\WhlTool.dll
 D:\unity_project\Demo\WhlTools\DebugTool\WhlTool\bin\Debug\WhlTool.pdb
 D:\unity_project\Demo\WhlTools\DebugTool\WhlTool\obj\Debug\WhlTool.dll
 D:\unity_project\Demo\WhlTools\DebugTool\WhlTool\obj\Debug\WhlTool.pdb
+D:\unity_project\Demo\Tools\WhlCommonToolToDll\WhlTool\bin\Debug\WhlTool.XML
+D:\unity_project\Demo\Tools\WhlCommonToolToDll\WhlTool\bin\Debug\WhlTool.dll
+D:\unity_project\Demo\Tools\WhlCommonToolToDll\WhlTool\bin\Debug\WhlTool.pdb
+D:\unity_project\Demo\Tools\WhlCommonToolToDll\WhlTool\obj\Debug\WhlTool.csprojResolveAssemblyReference.cache
+D:\unity_project\Demo\Tools\WhlCommonToolToDll\WhlTool\obj\Debug\WhlTool.dll
+D:\unity_project\Demo\Tools\WhlCommonToolToDll\WhlTool\obj\Debug\WhlTool.pdb

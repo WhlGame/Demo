@@ -1,4 +1,6 @@
-GameClent/.vs*
-GameClent/Temp*
-GameClent/Library*
-GameClent/GameClent*
+GameClent/.vs
+GameClent/Temp
+GameClent/Library/
+GameClent/*.csproj
+GameClent/*.sln
+GameClent/*.userprefs

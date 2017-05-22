@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WhlTool</name>
+    </assembly>
+    <members>
+        <member name="T:Debuger.LogType">
+            <summary>
+            打印消息程序集，分为游戏中，UI和网络
+            </summary>
+        </member>
+        <member name="M:Debuger.SetLogEnable(System.Boolean)">
+            <summary>
+            设置是否打印信息
+            </summary>
+            <param name="enbale"></param>
+        </member>
+        <member name="M:Util.SetLayerInChildren(UnityEngine.Transform,System.Int32)">
+            <summary>
+            设置Layer
+            </summary>
+            <param name="transform"></param>
+            <param name="layer"></param>
+        </member>
+        <member name="M:Util.SetLayerInChildren(UnityEngine.Transform,System.String)">
+            <summary>
+            设置Layer
+            </summary>
+            <param name="transform"></param>
+            <param name="layerName"></param>
+        </member>
+        <member name="M:Util.SearchTransform(UnityEngine.Transform,System.String)">
+            <summary>
+            查找子物体
+            </summary>
+            <param name="tr"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Util.LookRotation(UnityEngine.Vector3)">
+            <summary>
+            
+            </summary>
+            <param name="forward"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Util.GetWithoutClone(System.String)">
+            <summary>
+            去掉(Clone)
+            </summary>
+            <param name="src"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Util.GCCollect">
+            <summary>
+            手动清除GC
+            </summary>
+        </member>
+        <member name="M:Util.Ftoi(System.Single)">
+            <summary>
+            float to int
+            </summary>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Util.DtoI(System.Double)">
+            <summary>
+            double to int
+            </summary>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Util.GetiOSVersion">
+            <summary>
+            获取iOSVersion
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
