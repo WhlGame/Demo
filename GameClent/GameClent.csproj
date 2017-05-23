@@ -81,10 +81,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Event\EventArg.cs" />
+    <Compile Include="Assets\Scripts\Event\EventIdDelegates.cs" />
+    <Compile Include="Assets\Scripts\Event\EventMgr.cs" />
+    <Compile Include="Assets\Scripts\Lib\AllocMem.cs" />
+    <Compile Include="Assets\Test\EventTest\Cube.cs" />
+    <Compile Include="Assets\Test\EventTest\CubeEventArg.cs" />
+    <Compile Include="Assets\Test\EventTest\Lister.cs" />
     <Compile Include="Assets\Test\Test1\DebugTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\WhlTool.XML" />
+    <None Include="Assets\Resources\Shaders\UnlitShader.shader" />
     <None Include="Assets\Test\Test1\NewUnlitShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
