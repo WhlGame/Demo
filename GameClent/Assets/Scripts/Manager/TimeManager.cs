@@ -2,34 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 /// <summary>
-/// 时间管理，可以分别控制UI和Game的deltaTime
+/// 时间管理,真实的时间和Time.deltaTime
 /// </summary>
 public class TimeManager : Singleton<TimeManager>
 {
-    private bool resertUITime = true;
-    private bool resertGMTime = true;
-    private float uiDeltaTime;
+
+    float timeScale = 1f;
+    float keepTimeScale = 1f;
+    bool isStop = false;
+    public float TimeScale { get { return timeScale; } }
+    public float RealTimeSpan { get; private set; }
+
     public float UIDeltaTime
     {
-        private set
-        {
-            uiDeltaTime = value;
-        }
+
         get
         {
-            return uiDeltaTime;
+            return Time.deltaTime;
         }
     }
-    private float gmDeltaTime;
     public float GMDeltaTime
     {
-        private set
-        {
-            gmDeltaTime = value;
-        }
         get
         {
-            return gmDeltaTime;
+            return Time.deltaTime;
         }
     }
     private float lastTimeStamp;
@@ -40,16 +36,33 @@ public class TimeManager : Singleton<TimeManager>
     }
     void Update()
     {
-        deltaTime = Time.realtimeSinceStartup - lastTimeStamp;
+        RealTimeSpan = Time.realtimeSinceStartup - lastTimeStamp;
         lastTimeStamp = Time.realtimeSinceStartup;
+    }
+    public void SetTimeScale(float scale)
+    {
+        timeScale = scale;
+        keepTimeScale = timeScale;
+        if (!isStop)
+        {
+            Time.timeScale = timeScale;
+        }
+    }
 
-        if (resertUITime)
+    public void StopTimeScale()
+    {
+        if (!isStop)
         {
-            UIDeltaTime = deltaTime;
+            keepTimeScale = timeScale;
         }
-        if (resertGMTime)
-        {
-            GMDeltaTime = deltaTime;
-        }
+        Time.timeScale = timeScale = 0f;
+        isStop = true;
+    }
+
+    public void ResetTimeScaleFromStop()
+    {
+        timeScale = keepTimeScale;
+        Time.timeScale = keepTimeScale;
+        isStop = false;
     }
 }

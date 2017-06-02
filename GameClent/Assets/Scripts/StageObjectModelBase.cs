@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StageObjectModelBase : MonoBehaviour {
+public class StageObjectModelBase
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public int hp;
+    public float speed;
+    public float atk;
+    public float def;
+    public string name;
+    public string resourcePath;
+
+
+
+    public Vector3 postion;
+    public Vector3 scale;
+    public Vector3 angle;
 }
