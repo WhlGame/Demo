@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Stage
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: StageLayer
+    uniqueID: 4272568505
+    locked: 0
+  - name: UILayer
+    uniqueID: 2814969361
     locked: 0
